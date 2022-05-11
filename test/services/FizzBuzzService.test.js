@@ -4,7 +4,7 @@ describe("Test for FizzBuzzService", () => {
     test("'Trick' equals to '1' when explorer's score is '1'", () => {
         const explorer1 = { name: "Explorer1", score: 1 }
         const fizzBuzz = FizzBuzzService.applyValidationInExplorer(explorer1)
-        expect(fizzBuzz.trick).toBe(0);
+        expect(fizzBuzz.trick).toBe(1);
     })
 
     test("'Trick' equals to score's explorer when score is not divisible by 3 or 5", () => {
